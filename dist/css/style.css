@@ -19,11 +19,12 @@ body{
     background: var(--white);
 }
 .navigation{
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 18px 40px;
-    box-shadow: 0 0.1rem 0.5rem #535353;
+    box-shadow: 0 0.1rem 0.5rem #2c2c2c;
     width: 100%;
     background: #752419;
     transition: all 0.5s;
@@ -126,13 +127,9 @@ footer{
     padding: 40px;
     left: 50%;
     color: white;
-    font-size: small;
+    font-size: x-small;
     text-align: center;
     position: sticky;
-}
-.email{
-  font-size: x-small;
-  color: rgb(167, 167, 22);
 }
 
 
@@ -240,7 +237,6 @@ footer{
     top: -50px;
   }
   .example-2 .icon-content a {
-    z-index: -1;
     scale: 70%;
     position: sticky;
     margin-top: 1000%;
@@ -476,6 +472,7 @@ footer{
     .nav-item{
         margin: 4px 0;
     }
+
     /*main*/
     .home{
         padding: 100px 2%;
@@ -508,7 +505,6 @@ footer{
     .img{
       width: 100px;
       height: 100px;
-
   }
 }
 
