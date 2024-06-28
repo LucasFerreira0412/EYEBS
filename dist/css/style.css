@@ -137,6 +137,7 @@ footer{
 
 
 .card-container {
+    scale: 80%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
@@ -177,10 +178,13 @@ footer{
   /*Membros*/
 
   .content {
+    width: 70%;
+    color: #000;
     position: relative;
-    z-index: -1;
     text-align: center;
     padding: 20px;
+    margin: 70px auto;
+    border-radius: 10px;
   }
   
   .img {
@@ -192,15 +196,27 @@ footer{
     justify-content: center;
     display: flex;
   }
+  .social-link{
+    color: #000;
+  }
+  .job{
+    font-size: small;
+    color: #fff;
+    background-color: #752419;
+    border-radius: 10px;
+    width: 180px;
+    margin: 70px auto;
+    margin-top: 5px;
+  }
 
   /*Team*/
 
   .team{
     padding: 50px;
-    margin-top: 20%;
+    margin-bottom: 5%;
     background-color: #752419;
     color: #fff;
-    font-size: x-large;
+    font-size: large;
     z-index: -1;
     position: relative;
     display: flex;
