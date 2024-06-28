@@ -182,7 +182,6 @@ footer{
     color: #000;
     position: relative;
     text-align: center;
-    padding: 20px;
     margin: 70px auto;
     border-radius: 10px;
   }
@@ -212,7 +211,7 @@ footer{
   /*Team*/
 
   .team{
-    padding: 50px;
+    padding: 30px;
     margin-bottom: 5%;
     background-color: #752419;
     color: #fff;
@@ -516,7 +515,6 @@ footer{
     }
     .team{
       font-size: small;
-      padding: 30px;
   }
     .img{
       width: 100px;
