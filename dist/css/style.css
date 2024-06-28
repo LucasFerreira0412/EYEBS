@@ -137,13 +137,13 @@ footer{
 
 
 .card-container {
-    scale: 80%;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
   
   .card {
+    scale: 80%;
     flex-basis: 33.33%; 
     margin: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
