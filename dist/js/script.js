@@ -14,3 +14,20 @@ links.forEach(link => {
     document.querySelector('.nav-menu').classList.remove('ativo');
   });
 });
+
+const label = document.querySelector('.theme');
+const input = document.querySelector('.theme__toggle');
+label.addEventListener('click', (event) => {
+  if (event.target !== input) {
+    event.preventDefault();
+  }
+});
+
+const darkModeBtn = document.getElementById('theme');
+const content = document.getElementById('content');
+
+darkModeBtn.addEventListener('click', () => {
+  document.body.classList.toggle('dark-mode');
+});
+
+
