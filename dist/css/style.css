@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
-/* Default */
+
+/* Botão do modo Escuro */
+
 .theme {
   display: flex;
   align-items: center;
@@ -21,8 +23,8 @@
   inset: 0;
   height: 100%;
   transform: translateX(-100%);
-  pointer-events: none; /* Adicionado */
-  z-index: -1; /* Adicionado */
+  pointer-events: none; 
+  z-index: -1;
 }
 
 .theme__icon,
@@ -37,8 +39,8 @@
 
 .theme__icon {
   display: block;
-  top: 0.5em;
-  left: 0.5em;
+  top: 0.4em;
+  left: 0.4em;
   width: 1.5em;
   height: 1.5em;
 }
@@ -134,7 +136,6 @@
   outline: transparent;
 }
 
-/* Checked */
 .theme__toggle:checked {
   background-color: hsl(198,90%,15%);
 }
@@ -217,6 +218,7 @@
 .dark-mode #content {
   background-color: #444;
 }
+
 
 
 *{
@@ -353,8 +355,8 @@ footer{
 }
 
 
-/*Cards*/
 
+/*Cards*/
 
 .card-container {
     display: flex;
@@ -390,43 +392,50 @@ footer{
   }
   
   .card__description {
-    font-size: 16px;
+    font-size: 17px;
     color: #7e7e7e;
   }
 
+  
 
   /*Membros*/
 
-  .content {
-    width: 70%;
-    color: #000;
-    position: relative;
-    text-align: center;
-    margin: 70px auto;
-    border-radius: 10px;
-  }
-  
-  .img {
-    width: 190px;
-    height: 190px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 70px auto;
-    justify-content: center;
-    display: flex;
-  }
-  .social-link{
-    color: #8a8a8a;
-  }
-  .job{
-    font-size: small;
-    color: #fff;
-    background-color: #752419;
-    border-radius: 10px;
-    width: 230px;
-    margin: 70px auto;
-    margin-top: 5px;
-  }
+.content {
+  max-width: 70%;
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 70px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.social-link {
+  color: #8a8a8a;
+  font-size: 17px;
+}
+
+.job {
+  font-size: small;
+  color: #fff;
+  background-color: #752419;
+  border-radius: 20px;
+  width: 230px;
+  margin: 70px auto;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
 
   /*Team*/
 
@@ -441,6 +450,8 @@ footer{
     display: flex;
     justify-content: center;
   }
+
+
 
   /*Botão de Rede Social*/
 
@@ -673,8 +684,10 @@ footer{
     }
   
 
-/*Celular*/
-@media screen and (max-width:785px) {
+
+    /*Celular*/
+
+    @media screen and (max-width:785px) {
     .navigation{
         padding: 18px 20px;
     }
@@ -708,7 +721,7 @@ footer{
         margin: 4px 0;
     }
 
-    /*main*/
+
     .home{
         padding: 100px 2%;
         flex-direction: column;
@@ -740,6 +753,7 @@ footer{
       width: 100px;
       height: 100px;
   }
+
 }
 
 
