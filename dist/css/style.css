@@ -265,12 +265,14 @@ body{
     align-items: center;
     gap: 5rem;
 }
+
+/*Escrita do menu*/
 .navigation ul li a{
     color: var(--white);
     font-size: 17px;
-    font-weight: 500;
     transition: all 0.5s;
 }
+
 .navigation ul li a:hover{
     color: var(--red);
 }
@@ -716,10 +718,17 @@ footer{
     }
     .nav-menu.ativo{
         right: 0;
+        width: 70%;
+        background-color: #5a1b13;
+        
     }
     .nav-item{
         margin: 4px 0;
     }
+    .navigation ul li{
+      margin-top: 15%;
+      line-height: 1px;
+  }
 
 
     .home{
@@ -752,6 +761,9 @@ footer{
     .img{
       width: 100px;
       height: 100px;
+  }
+  .theme{
+      margin-top: -40%;
   }
 
 }
