@@ -5,6 +5,8 @@
 /* Botão do modo Escuro */
 
 .theme {
+  left: -20%;
+  position: relative;
   display: flex;
   align-items: center;
   -webkit-tap-highlight-color: transparent;
@@ -219,6 +221,10 @@
   background-color: #444;
 }
 
+/*icone só aparece no celular*/
+.navigation svg{
+  display: none;
+}
 
 
 *{
@@ -240,7 +246,7 @@ body{
     background: var(--white);
 }
 .navigation{
-    z-index: 1;
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -265,6 +271,7 @@ body{
     align-items: center;
     gap: 5rem;
 }
+  
 
 /*Escrita do menu*/
 .navigation ul li a{
@@ -689,9 +696,10 @@ footer{
 
     /*Celular*/
 
-    @media screen and (max-width:785px) {
+    @media screen and (max-width:1024px) {
     .navigation{
         padding: 18px 20px;
+        z-index: 3;
     }
     .menu{
         display: block;
@@ -726,8 +734,11 @@ footer{
         margin: 4px 0;
     }
     .navigation ul li{
-      margin-top: 15%;
+      margin-top: 22%;
       line-height: 1px;
+  }
+  .theme{
+    left: -3%;
   }
 
 
@@ -762,11 +773,8 @@ footer{
       width: 100px;
       height: 100px;
   }
-  .theme{
-      margin-top: -40%;
+  .navigation ul{
+    gap: 2rem;
   }
 
-}
-
-
-
+    }
