@@ -3,7 +3,7 @@
 
 
 .fundo-home{
-  z-index: -2;
+  z-index: -1;
   position: absolute;
   display: flex;
   width: 100%;
@@ -11,11 +11,9 @@
 }
 
 .video{
-  background-image: linear-gradient(to left, #D11316, #91060D);
   padding: 10px;
   position: relative;
   display: flex;
-  justify-content: center;
 }
 
 /* Botão do modo Escuro */
