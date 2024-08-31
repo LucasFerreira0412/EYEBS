@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 
-.title-video{
-  padding: 30px;
-  background-color: #75050b;
-  color: #fff;
-  font-size: large;
-  z-index: -1;
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-
 .fundo-home{
   z-index: -2;
   position: absolute;
@@ -22,8 +10,6 @@
 }
 
 .video{
-  text-align: center;
-  background-image: linear-gradient(to left, #D11316, #91060D);
   padding: 10px;
   position: relative;
   display: flex;
@@ -796,9 +782,6 @@ footer{
     }
     .team{
       font-size: small;
-  }
-  .title-video{
-    font-size: small;
   }
     .img{
       width: 100px;
