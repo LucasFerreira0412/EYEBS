@@ -13,7 +13,6 @@
 .video{
   background-image: linear-gradient(to left, #D11316, #91060D);
   padding: 10px;
-  margin-top: -10%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -792,5 +791,8 @@ footer{
   }
   .navigation ul{
     gap: 2rem;
+  }
+  .video{
+    margin-top: -20%;
   }
     }
