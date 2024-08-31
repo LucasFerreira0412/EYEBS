@@ -10,6 +10,7 @@
 }
 
 .video{
+  top: 100%;
   background-image: linear-gradient(to left, #D11316, #91060D);
   padding: 10px;
   position: relative;
