@@ -12,7 +12,9 @@
 
 .video{
   background-image: linear-gradient(to left, #D11316, #91060D);
-  padding: 50px;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
   position: relative;
   display: flex;
   justify-content: center;
