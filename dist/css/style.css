@@ -12,6 +12,7 @@
 }
 
 .video{
+  padding: 30px;
   position: relative;
   display: flex;
 }
