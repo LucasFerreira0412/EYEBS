@@ -11,12 +11,21 @@
   box-shadow: 0px 250px 0px rgb(191, 0, 3)
 }
 
-.video{
-  padding: 30px;
-  position: relative;
+.container {
   display: flex;
+  flex-wrap: wrap;
+  position: relative;
 }
-
+.video {
+  flex: 1;
+  text-align: center;
+}
+.text-video {
+  flex: 1;
+  text-align: justify;
+  padding-left: 5%;
+  color: white;
+}
 /* Botão do modo Escuro */
 
 .theme {
@@ -711,7 +720,7 @@ footer{
 
     /*Celular*/
 
-    @media screen and (max-width:1024px) {
+    @media screen and (max-width:1300px) {
     .navigation{
         padding: 18px 20px;
         z-index: 3;
@@ -791,7 +800,18 @@ footer{
   .navigation ul{
     gap: 2rem;
   }
-  .video{
-    padding: 10px;
+  .container {
+    flex-direction: column;
   }
-    }
+  .video iframe {
+    width: 100%;
+    height: 600px;
+  }
+  .text-video {
+    width: 100%;
+    padding: 5%;
+  }
+  .fundo-home{
+  box-shadow: 0px 400px 0px rgb(191, 0, 3)
+  }
+}
