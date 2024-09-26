@@ -458,19 +458,23 @@ footer{
 }
 
 .job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: small;
   color: #fff;
   background-color: #75050b;
   border-radius: 20px;
-  width: 250px;
+  width: 200px;
   margin: 70px auto;
   margin-top: 5px;
   padding: 10px;
-  text-align: center;
 }
 
 
   /*Team*/
+
+
 
   .team{
     padding: 30px;
